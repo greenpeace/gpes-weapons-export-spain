@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Map</title>
+	<meta name="robots" content="noindex, nofollow" />
+</head>
+
+<body>
+
+    <link rel="stylesheet" href="styles_armas.css" />
+    <link rel="stylesheet" href="libs/leaflet.css" />
+    <script src="countries_ok-1.js"></script>
+    <script src="libs/leaflet.js"></script>
+    <script src="libs/leaflet-providers-1.js"></script>
+    <style>
+        body {
+            margin: 0; padding: 0;
+        }
+        #map {
+            width: 100%;
+            height: 600px;
+            background-color: #f5f5f6;
+        }
+    </style>
+    <div id = "map"> </div>
+    <figcaption class="figure-caption text-center">Fuente: Secretaria de Estado de Comercio e Informes "Armas Bajo Control".</figcaption>
+
+    <script type="text/javascript">
+        var map = L.map('map', { scrollWheelZoom: false}).setView([24.965, 10.164], 1);
+
+        var Esri_WorldGrayCanvas = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
+            minZoom: 2,
+            maxZoom: 4,
+        }).addTo(map);
+
+
+        // control that shows state info on hover
+        var info = L.control();
+
+        info.onAdd = function (map) {
+            this._div = L.DomUtil.create('div', 'info');
+            this.update();
+            return this._div;
+        };
+
+        info.update = function (props) {
+            this._div.innerHTML = '<p class="h6">Exportaciones de armas realizadas<br> por Espa&ntilde;a entre 2014 y 2016</p>' +  (props ?
+                '<b>' + props.nombre + '</b><br />' +'Exportaciones por un valor total estimado' +'<br>' + 'en ' + '<b>'+ props.valor +'</b>' + ' millones de euros<br><br>' + props.texto
+                : 'Pase el cursor por un pa&iacute;s');
+        };
+
+        info.addTo(map);
+
+        function getColor(d) {
+            return d == 1 ? '#bd0026' :
+                   d == 2  ? '#fd8d3c' :
+                   d == 3  ? '#ffffb2' :
+                   d == 4  ? '#fbcfb2' :
+                            '#CCCCCC';
+                }
+
+
+        function style(feature) {
+            return {
+                fillColor: getColor(feature.properties.color),
+                weight: 0.5,
+                opacity: 1,
+                color: '#636363',
+                dashArray: '4',
+                fillOpacity: 0.7
+            };
+        }
+
+            function highlightFeature(e) {
+                var layer = e.target;
+
+                layer.setStyle({
+                    weight: 2,
+                    color: '#666',
+                    dashArray: '3',
+                    fillOpacity: 0.7
+                });
+
+                if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+                    layer.bringToFront();
+                }
+
+                info.update(layer.feature.properties);
+            }
+
+            var geojson;
+
+            function resetHighlight(e) {
+                geojson.resetStyle(e.target);
+                info.update();
+            }
+
+            function zoomToFeature(e) {
+                map.fitBounds(e.target.getBounds());
+            }
+
+            function onEachFeature(feature, layer) {
+                layer.on({
+                    mouseover: highlightFeature,
+                    mouseout: resetHighlight,
+                    click: zoomToFeature
+                });
+            }
+
+            function clearMap() {
+                    // clear all layers before it reloads;
+                    map.eachLayer(function(layer) {
+                        map.removeLayer(layer);
+                    });
+                    map.removeControl(lcontrol);
+                    map.removeControl(eb);
+                }
+                map.on('focus', function() {
+                    map.scrollWheelZoom.enable();
+                });
+                map.on('blur', function() {
+                    map.scrollWheelZoom.disable();
+                });
+
+        geojson = L.geoJson(countries, {
+            style: style,onEachFeature: onEachFeature
+        }).addTo(map);
+
+        var legend = L.control({position: 'bottomright'});
+
+        legend.onAdd = function (map) {
+
+            var div = L.DomUtil.create('div', 'info legend');
+                div.innerHTML +=
+                    '<i style="background:#bd0026"></i> Exportaci&oacute;n preocupante (2015-2016)<br><i style="background:#fd8d3c"></i> Potencial preocupaci&oacute;n (2015-2016)<br><i style="background:#ffffb2"></i> Anterior preocupaci&oacute;n (2014)<br>';
+            return div;
+        };
+
+        legend.addTo(map);
+
+    </script>
+
+</body>
+</html>
