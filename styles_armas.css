@@ -1,0 +1,258 @@
+/* general css */
+
+.parrafo {
+  max-width: 650px;
+  margin: auto;
+  padding: 1em 0 1em 0;
+}
+.parrafo-dark {
+  max-width: 650px;
+  margin: auto;
+  padding: 1.5em 0.1em 2em 0.1em;
+  background: #dddddd;
+}
+.h4armas {
+  color: #333333;
+  margin: 1em 0 0 0;
+  text-transform: uppercase;
+}
+.h2armas {
+color: #333333;
+  margin:0.5em 0 0 0;
+}
+.color-mark{
+background: #2ab20b;
+background-color: rgba(42, 178, 11, 0.3);
+}
+/* map css */
+
+.info {
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.info h4 {
+  margin: 0 0 5px;
+  color: #777;
+}
+
+.legend {
+  text-align: left;
+  line-height: 18px;
+  color: #555;
+}
+
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+
+/* svg css */
+
+#svg-container {
+  display: flex;
+  align-items: center;
+}
+
+#svg-1 {
+  margin: 0 auto;
+  display: block;
+}
+
+/* quizz css*/
+
+.quiz-container {
+	background-color: #ddd;
+    max-width: 650px;
+    margin: auto;
+    padding: 1em 0 1em 0;
+}
+
+#quiz {
+  color: #000000;
+}
+
+#quiz-title .faded {
+  color: #777;
+}
+
+#quiz-counter {
+  padding: 1em 0 1em 0;
+  color: #2CB32F;
+}
+
+.quiz-container {
+  padding: 0.25em;
+  max-width: 600px;
+  margin: 1em auto;
+padding:1em 1em 1em 1em;
+}
+
+.quiz-container a {
+  text-decoration: none;
+  color: #333;
+}
+
+#quiz-title, #quiz-start-screen, #quiz-results-screen, #quiz-counter {
+  text-align: center;
+}
+
+.question {
+  font-size: 1.25em;
+}
+
+.answers {
+  list-style: none;
+  padding: 0;
+}
+
+.answers li::before {
+  content: "";
+}
+
+.answers a {
+  display: block;
+  padding: 0.5em 1em;
+  margin-bottom: 0.5em;
+  background: #fff;
+}
+
+.answers a.correct {
+  background: #090;
+}
+
+.answers a.incorrect {
+  background: #c00;
+}
+
+.answers a.correct, .answers a.incorrect {
+  color: #fff;
+}
+
+#quiz-controls {
+  background: #7ABD94;
+  color: #fff;
+  padding: 0.25em 0.5em 0.5em;
+  text-align: center;
+}
+
+#quiz-response {}
+
+#quiz-results {
+  font-size: 1.25em;
+}
+
+#quiz-buttons a, .quiz-container .quiz-button {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  background: #2CB32F;
+  color: #fff;
+}
+
+#quiz-buttons a {
+  background: #fff;
+  color: #333;
+}
+
+.quiz-results-state #quiz-controls {
+  background: none;
+  padding: 0;
+}
+
+.quiz-results-state #quiz-buttons a {
+  background: #2CB32F;
+  color: #fff;
+}
+
+/*submenu*/
+.submenu  {
+  padding: 1em;
+  font-family: font-family: Verdana, Geneva, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.submenu  ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+}
+.submenu li::before {
+  content: "";
+padding:0;
+}
+.submenu  li a {
+  color: #888;
+  display: block;
+  text-decoration: none;
+  padding: .5em 1em;
+font-weight:600;
+}
+.submenu li a:hover {
+  background: #868B86;
+  color: white;
+}
+@media screen and (min-width: 480px) {
+    .submenu  ul {
+      display: flex;
+      justify-content: center;
+    }
+}
+/*ir-arriba*/
+.ir-arriba {
+  position: fixed;
+   right: 10%;
+  bottom: 10px;
+  background-color: #33b022;
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+  z-index: 99999;
+  line-height: 0;
+  padding: 10px;
+  display: none;
+  transition: all .5s ease;
+}
+.ir-arriba:hover, .ir-arriba:focus {
+  outline: 0;
+  text-decoration: none;
+  color: #666666;
+}
+.ir-arriba a {
+  font-size: 18px;
+  color: #666666;
+
+/*rrss_share*/
+.share_rrss_top  {
+  margin: 0;
+  padding: 0;
+}
+.share_rrss_top_ul {
+  padding: 20px 20px 0 20px;
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.share_rrss_top_ul a {
+ color: #2ab20b;
+ font-size: 0.85rem;
+ margin: 0 0.5rem 0 0.5rem;
+}
+.share_rrss_top li::before {
+  content: " ";
+padding:0;
+ }
