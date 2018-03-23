@@ -8,7 +8,7 @@ var countries = {
                 "color": 4,
                 "valor": "64,2",
                 "fecha": 2016,
-                "texto": "Riesgo potencial de uso para cometer<br> o facilitar violaciones graves del derecho<br> internacional en Yemen."
+                "texto": "- Riesgo potencial de uso para cometer<br> o facilitar violaciones graves del derecho<br> internacional en Yemen."
             },
             "geometry": {
                 "type": "MultiPolygon",
