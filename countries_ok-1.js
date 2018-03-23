@@ -48,9 +48,9 @@ var countries = {
             "properties": {
                 "nombre": "Brazil",
                 "color": 1,
-                "valor": "77,6",
+                "valor": "77.6",
                 "fecha": 2016,
-                "texto": "Riesgo sustancial de uso de armas pequeñas,<br> municiones y vehículos en la comisión<br> de violaciones graves de derechos<br> humanos por parte de la Policía Militar."
+                "texto": "Substantial risk of use of small arms,<br> ammunition, munitions and vehicles in the commission<br> of serious human rights violations<br> by the Military Police."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -60,11 +60,11 @@ var countries = {
         {
             "type": "Feature",
             "properties": {
-                "nombre": "República Centroafricana (RCA)",
+                "nombre": "Central Afican Republic (CAR)",
                 "color": 3,
                 "valor": "-",
                 "fecha": 2014,
-                "texto": "Milicias anti-Balaka, responsables de crímenes<br> de guerra y de lesa humanidad, y civiles<br> armados utilizaron munición exportada a<br> Camerún en 2014 desviada a la RCA.<br> El país estaba sometido a un embargo de la ONU."
+                "texto": "Anti-Balaka militia, responsible for war crimes<br> and crimes against humanity, and armed civilians<br> used ammunition exported to<br> Cameroon in 2014 diverted to CAR.<br> The country was under a UN embargo."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -74,11 +74,11 @@ var countries = {
         {
             "type": "Feature",
             "properties": {
-                "nombre": "Camerún",
+                "nombre": "Cameroon",
                 "color": 2,
-                "valor": "1,5",
+                "valor": "1.5",
                 "fecha": 2015,
-                "texto": "Riesgo potencial en 2015 de desvío de munición<br> a la República Centroafricana."
+                "texto": "Potential risk of diversion of ammunition<br> to the Central African Republic."
             },
             "geometry": {
                 "type": "MultiPolygon",
