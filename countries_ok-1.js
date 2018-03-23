@@ -4,11 +4,11 @@ var countries = {
         {
             "type": "Feature",
             "properties": {
-                "nombre": "Marruecos",
+                "nombre": "Morocco",
                 "color": 4,
-                "valor": "64,2",
+                "valor": "64.2",
                 "fecha": 2016,
-                "texto": "- Riesgo potencial de uso para cometer<br> o facilitar violaciones graves del derecho<br> internacional en Yemen."
+                "texto": "- Potential risk of use to commit<br> or facilitate serious violations of international<br> law in Yemen."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -18,11 +18,11 @@ var countries = {
         {
             "type": "Feature",
             "properties": {
-                "nombre": "Emiratos Árabes Unidos",
+                "nombre": "United Arab Emirates",
                 "color": 2,
-                "valor": "40,7",
+                "valor": "40.7",
                 "fecha": 2016,
-                "texto": "Riesgo potencial de uso en Yemen para<br>cometer o facilitar crímenes de derecho<br> internacional."
+                "texto": "Potential risk of use in Yemen to<br>commit or facilitate crimes under international<br> law."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -32,11 +32,11 @@ var countries = {
         {
             "type": "Feature",
             "properties": {
-                "nombre": "Bahréin",
+                "nombre": "Bahrain",
                 "color": 1,
-                "valor": "62,3",
+                "valor": "62.3",
                 "fecha": 2016,
-                "texto": "Riesgo sustancial de uso de armas pequeñas,<br> munciones y vehículos en la represión<br> de la disidencia y la guerra de Yemen."
+                "texto": "Substantial risk of use of small arms,<br> munitions and vehicles for repression<br> of dissent and the war in Yemen."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -46,7 +46,7 @@ var countries = {
         {
             "type": "Feature",
             "properties": {
-                "nombre": "Brasil",
+                "nombre": "Brazil",
                 "color": 1,
                 "valor": "77,6",
                 "fecha": 2016,
