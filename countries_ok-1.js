@@ -90,9 +90,9 @@ var countries = {
             "properties": {
                 "nombre": "Colombia",
                 "color": 1,
-                "valor": "37,5",
+                "valor": "37.5",
                 "fecha": 2016,
-                "texto": "Riesgo sustancial de uso para cometer o facilitar<br> graves violaciones del derecho internacional por<br> la ausencia de garantías de uso de las armas<br> conforme al derecho internacional."
+                "texto": "Substantial risk of use to commit o facilitate<br> serious violations of international law<br> due to the lack of guarantees of use of the arms<br> in accordance with international law."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -102,11 +102,11 @@ var countries = {
         {
             "type": "Feature",
             "properties": {
-                "nombre": "República Dominicana",
+                "nombre": "Dominican Republic",
                 "color": 2,
                 "valor": "1",
                 "fecha": 2016,
-                "texto": "Riesgo potencial de contribuir<br> a la comisión de homicidios."
+                "texto": "Potential risk to contribute<br> to comisión de homicidios killings."
             },
             "geometry": {
                 "type": "MultiPolygon",
