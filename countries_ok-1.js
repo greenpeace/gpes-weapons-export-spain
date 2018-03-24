@@ -260,7 +260,7 @@ var countries = {
                 "color": 3,
                 "valor": "0.8",
                 "fecha": 2014,
-                "texto": "Potencial risk in 2014 of misuse<br> due to the internal and regional situation."
+                "texto": "Potential risk in 2014 of misuse<br> due to the internal and regional situation."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -302,7 +302,7 @@ var countries = {
                 "color": 2,
                 "valor": "153.3",
                 "fecha": 2016,
-                "texto": "Substantial risk of use to commit<br> or facilitate serious violations of humans rights<br> and firearms-related homicides."
+                "texto": "Substantial risk of use to commit<br> or facilitate serious violations of human rights<br> and firearms-related homicides."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -330,7 +330,7 @@ var countries = {
                 "color": 2,
                 "valor": "16.3",
                 "fecha": 2016,
-                "texto": "Potential risk of illegitimate use of the anti-riot<br> equipment to commit or facilitate<br> serious violations graves of human rights<br> in the repression of protests."
+                "texto": "Potential risk of illegitimate use of the anti-riot<br> equipment to commit or facilitate<br> serious violations of human rights<br> in the repression of protests."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -456,7 +456,7 @@ var countries = {
                 "color": 2,
                 "valor": "166.6",
                 "fecha": 2016,
-                "texto": "Potential risk of transfer to<br> organized crime in Mexico, to private companies<br> involved in counter-terrorist operations abroad<br> and use to commit crimes."
+                "texto": "Potential risk of transfer to<br> organised crime in Mexico, to private companies<br> involved in counter-terrorist operations abroad<br> and use to commit crimes."
             },
             "geometry": {
                 "type": "MultiPolygon",
