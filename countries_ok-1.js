@@ -36,7 +36,7 @@ var countries = {
                 "color": 1,
                 "valor": "62.3",
                 "fecha": 2016,
-                "texto": "Substantial risk of use of small arms,<br> munitions and vehicles for repression<br> of dissent and the war in Yemen."
+                "texto": "Substantial risk of use of small arms,<br> ammunition/munitions and vehicles for repression<br> of dissent and the war in Yemen."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -50,7 +50,7 @@ var countries = {
                 "color": 1,
                 "valor": "77.6",
                 "fecha": 2016,
-                "texto": "Substantial risk of use of small arms,<br> ammunition, munitions and vehicles in the commission<br> of serious human rights violations<br> by the Military Police."
+                "texto": "Substantial risk of use of small arms,<br> ammunition/munitions and vehicles in the commission<br> of serious human rights violations<br> by the Military Police."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -106,7 +106,7 @@ var countries = {
                 "color": 2,
                 "valor": "1",
                 "fecha": 2016,
-                "texto": "Potential risk to contribute<br> to comisión de homicidios killings."
+                "texto": "Potential risk to contribute<br> to the commission of homicides."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -116,11 +116,11 @@ var countries = {
         {
             "type": "Feature",
             "properties": {
-                "nombre": "Egipto",
+                "nombre": "Egypt",
                 "color": 1,
-                "valor": "433,7",
+                "valor": "433.7",
                 "fecha": 2016,
-                "texto": "Riesgo sustancial de uso en la represión<br> de protestas o violaciones graves del derecho internacional<br> en la Península del Sinaí, Yemen y Libia."
+                "texto": "Substantial risk of use in the repression<br> of protests or serious violations of international law<br> in the Sinai Peninsula, Yemen and Libya."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -132,9 +132,9 @@ var countries = {
             "properties": {
                 "nombre": "Ghana",
                 "color": 2,
-                "valor": "32,0",
+                "valor": "32.0",
                 "fecha": 2016,
-                "texto": "Riesgo potencial de desvío de la munición<br> y de uso para la comisión de homicidios."
+                "texto": "Potential risk of diversion of ammunition/munitions<br> and use to commit homicides."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -146,9 +146,9 @@ var countries = {
             "properties": {
                 "nombre": "Guatemala",
                 "color": 2,
-                "valor": "1,3",
+                "valor": "1.3",
                 "fecha": 2016,
-                "texto": "Riesgo potencial de contribuir al alto índice<br> de violencia y de homicidios con armas de fuego y<br> a la violencia contra las mujeres."
+                "texto": "Potential risk to contribute to the high level<br> of violence and homicides with firearms and<br> violence against women."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -160,9 +160,9 @@ var countries = {
             "properties": {
                 "nombre": "Honduras",
                 "color": 2,
-                "valor": "0,2",
+                "valor": "0.2",
                 "fecha": 2016,
-                "texto": "Riesgo potencial de contribuir al alto índice<br> de homicidios y delitos violentos en un contexto<br> de impunidad y violencia generalizada."
+                "texto": "Potential risk to contribute to the high level<br> of homicides and violent crimes in a context<br> of impunity and widespread violence."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -176,7 +176,7 @@ var countries = {
                 "color": 3,
                 "valor": "112",
                 "fecha": 2014,
-                "texto": "Riesgo potencial en 2014 de contribuir a cometer<br> o facilitar violaciones graves del derecho internacional<br> por parte de la policía y el ejército."
+                "texto": "Potential risk in 2014 to commit<br> or facilitate serious violations of international law<br> by the police and the army."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -186,11 +186,11 @@ var countries = {
         {
             "type": "Feature",
             "properties": {
-                "nombre": "Irak",
+                "nombre": "Iraq",
                 "color": 1,
                 "valor": "234",
                 "fecha": 2016,
-                "texto": "Riesgo de desvío y de complicidad en la comisión<br> de crímenes de derecho internacional<br> por las milicias y FF.AA."
+                "texto": "Risk of diversion and complicity in the commission<br> of crimes under international law<br> by the militia and Armed Forces."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -202,9 +202,9 @@ var countries = {
             "properties": {
                 "nombre": "Israel",
                 "color": 1,
-                "valor": "6,1",
+                "valor": "6.1",
                 "fecha": 2016,
-                "texto": "Ausencia de mecanismos efectivos que garanticen<br> que las armas no se usan para cometer o<br> facilitar graves violaciones del derecho internacional."
+                "texto": "Lack of effective mechanisms guaranteeing<br> that the arms are not used to commit or<br> facilitate serious violations of international law."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -216,9 +216,9 @@ var countries = {
             "properties": {
                 "nombre": "Jamaica",
                 "color": 2,
-                "valor": "0,3",
+                "valor": "0.3",
                 "fecha": 2016,
-                "texto": "Riesgo potencial de uso en homicidios."
+                "texto": "Potential risk of use in homicides."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -228,11 +228,11 @@ var countries = {
         {
             "type": "Feature",
             "properties": {
-                "nombre": "Jordania",
+                "nombre": "Jordan",
                 "color": 2,
-                "valor": "6,7",
+                "valor": "6.7",
                 "fecha": 2016,
-                "texto": "Riesgo potencial de uso en Yemen<br> para cometer o facilitar crímenes<br> de derecho internacional."
+                "texto": "Potential risk of use in Yemen<br> to commit or facilitate crimes<br> under international law."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -244,9 +244,9 @@ var countries = {
             "properties": {
                 "nombre": "Kuwait",
                 "color": 2,
-                "valor": "3,5",
+                "valor": "3.5",
                 "fecha": 2016,
-                "texto": "Riesgo potencial de uso en Yemen<br> para cometer o facilitar crímenes<br> de derecho internacional."
+                "texto": "Potential risk of use in Yemen<br> to commit or facilitate crimes<br> under international law."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -256,11 +256,11 @@ var countries = {
         {
             "type": "Feature",
             "properties": {
-                "nombre": "Líbano",
+                "nombre": "Lebanon",
                 "color": 3,
-                "valor": "0,8",
+                "valor": "0.8",
                 "fecha": 2014,
-                "texto": "Riesgo potencial en 2014 de uso indebido<br> por la situación interna y regional."
+                "texto": "Potencial risk in 2014 of misuse<br> due to the internal and regional situation."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -270,11 +270,11 @@ var countries = {
         {
             "type": "Feature",
             "properties": {
-                "nombre": "Libia",
+                "nombre": "Libya",
                 "color": 3,
-                "valor": "0,3",
+                "valor": "0.3",
                 "fecha": 2014,
-                "texto": "Riesgo de uso del material antidisturbios<br> y agentes químicos\/tóxicos exportados en 2014<br> por las milicias y otras fuerzas armadas en crímenes<br> de derecho internacional y abusos contra los<br> derechos humanos."
+                "texto": "Risk of use of the anti-riot equipment<br> and chemical\/toxic agents exported in 2014<br> by the militia and other armed forces in crimes<br> under international law and<br> human rights abuses."
             },
             "geometry": {
                 "type": "MultiPolygon",
