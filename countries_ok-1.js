@@ -284,11 +284,11 @@ var countries = {
         {
             "type": "Feature",
             "properties": {
-                "nombre": "Marruecos",
+                "nombre": "Morocco",
                 "color": 2,
-                "valor": "64,2",
+                "valor": "64.2",
                 "fecha": 2016,
-                "texto": "Riesgo potencial de uso para cometer<br> o facilitar violaciones graves del derecho<br> internacional en Yemen."
+                "texto": "Potential risk of use to commit<br> or facilitate serious violations of international<br> law in Yemen."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -298,11 +298,11 @@ var countries = {
         {
             "type": "Feature",
             "properties": {
-                "nombre": "México",
+                "nombre": "Mexico",
                 "color": 2,
-                "valor": "153,3",
+                "valor": "153.3",
                 "fecha": 2016,
-                "texto": "Riesgo sustancial de uso para cometer<br> o facilitar violaciones graves de derechos humanos<br> y homicidios relacionados con las armas de fuego."
+                "texto": "Substantial risk of use to commit<br> or facilitate serious violations of humans rights<br> and firearms-related homicides."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -312,11 +312,11 @@ var countries = {
         {
             "type": "Feature",
             "properties": {
-                "nombre": "Pakistán",
+                "nombre": "Pakistan",
                 "color": 3,
-                "valor": "1,4",
+                "valor": "1.4",
                 "fecha": 2014,
-                "texto": "Riesgo sustancial en 2014 de uso de la fuerza<br> desproporcionado y ataques indiscriminados<br> en el conflicto interno."
+                "texto": "Substantial risk in 2014 of disproportionate use of force<br> and indiscriminate attacks<br> in the internal conflict."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -326,11 +326,11 @@ var countries = {
         {
             "type": "Feature",
             "properties": {
-                "nombre": "Perú",
+                "nombre": "Peru",
                 "color": 2,
-                "valor": "16,3",
+                "valor": "16.3",
                 "fecha": 2016,
-                "texto": "Riesgo potencial de uso ilegítimo del material<br> antidisturbios para cometer o facilitar<br> violaciones graves de derechos humanos<br> en la represión de protestas."
+                "texto": "Potential risk of illegitimate use of the anti-riot<br> equipment to commit or facilitate<br> serious violations graves of human rights<br> in the repression of protests."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -344,7 +344,7 @@ var countries = {
                 "color": 2,
                 "valor": "1",
                 "fecha": 2016,
-                "texto": "Riesgo potencial de uso para cometer<br> o facilitar violaciones graves del derecho<br> internacional en Yemen."
+                "texto": "Potential risk of use to commit<br> or facilitate serious violations of international<br> law in Yemen."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -354,11 +354,11 @@ var countries = {
         {
             "type": "Feature",
             "properties": {
-                "nombre": "Arabia Saudí",
+                "nombre": "Saudi Arabia",
                 "color": 1,
                 "valor": "955",
                 "fecha": 2016,
-                "texto": "Riesgo sustancial de contribuir a<br> cometer o facilitar graves violaciones<br> del derecho internacional en Yemen."
+                "texto": "Substantial risk to commit<br> or facilitate serious violations<br> of international law in Yemen."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -370,9 +370,9 @@ var countries = {
             "properties": {
                 "nombre": "El Salvador",
                 "color": 2,
-                "valor": "0,1",
+                "valor": "0.1",
                 "fecha": 2015,
-                "texto": "Riesgo sustancial de que las armas pequeñas<br> y la munición puedan contribuir a<br> un elevado índice de homicidios."
+                "texto": "Substantial risk that the small arms<br> and ammunition could contribute to a<br> high level of homicides."
             },
             "geometry": {
                 "type": "MultiPolygon",
