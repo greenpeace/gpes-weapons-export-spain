@@ -386,7 +386,7 @@ var countries = {
                 "color": 2,
                 "valor": "-",
                 "fecha": 2015,
-                "texto": "Riesgo potencial del uso excesivo de<br> la fuerza de la policía contra<br> manifestantes pacíficos."
+                "texto": "Potential risk of excessive use<br> of force by the police against<br> peaceful demonstrators."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -396,11 +396,11 @@ var countries = {
         {
             "type": "Feature",
             "properties": {
-                "nombre": "Tailandia",
+                "nombre": "Thailand",
                 "color": 2,
-                "valor": "43,1",
+                "valor": "43.1",
                 "fecha": 2016,
-                "texto": "Riesgo potencial de uso para cometer<br> o facilitar graves violaciones del derecho<br> internacional en el conflicto interno en<br> el sur del país."
+                "texto": "Potential risk of use to commit<br> or facilitate serious violations of international<br> law in the internal conflict in<br> the south of the country."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -410,11 +410,11 @@ var countries = {
         {
             "type": "Feature",
             "properties": {
-                "nombre": "Túnez",
+                "nombre": "Tunisia",
                 "color": 2,
-                "valor": "13,1",
+                "valor": "13.1",
                 "fecha": 2016,
-                "texto": "Riesgo de que el material antidisturbios<br> pueda contribuir o facilitar la restricción del<br> derecho de reunión y la libertad de expresión o<br> a sufrir tortura y malos tratos."
+                "texto": "Risk that the anti-riot equipment<br> could contribute to or facilitate to limit the<br> right to assembly and freedom of speech or<br> be subject to torture and ill-treatment."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -424,11 +424,11 @@ var countries = {
         {
             "type": "Feature",
             "properties": {
-                "nombre": "Turquía",
+                "nombre": "Turkey",
                 "color": 1,
                 "valor": "253",
                 "fecha": 2016,
-                "texto": "Riesgo manifiesto de uso para cometer<br> o facilitar violaciones graves del derecho<br> internacional en la represión interna<br> y el sureste del país."
+                "texto": "Clear risk of use to commit<br> or facilitate serious violations of international<br> law in internal repression<br> and the south-east of the country."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -438,11 +438,11 @@ var countries = {
         {
             "type": "Feature",
             "properties": {
-                "nombre": "Ucrania",
+                "nombre": "Ukraine",
                 "color": 2,
-                "valor": "0,04",
+                "valor": "0.04",
                 "fecha": 2016,
-                "texto": "Riesgo sustancial de que las armas<br> pequeñas y munición puedan contribuir a<br> facilitar o cometer graves violaciones<br> del derecho internacional ante los enfrentamientos<br> esporádicos en el este del país y la persistente impunidad."
+                "texto": "Substantial risk that the small<br> arms and ammunition could contribute to<br> facilitate or commit serious violations<br> of international law in the face of the sporadic<br> fighting in the east of the country and the persistent impunity."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -452,11 +452,11 @@ var countries = {
         {
             "type": "Feature",
             "properties": {
-                "nombre": "EEUU",
+                "nombre": "USA",
                 "color": 2,
-                "valor": "166,6",
+                "valor": "166.6",
                 "fecha": 2016,
-                "texto": "Riesgo potencial de transferencia al<br> crimen organizado en México, a empresas privadas<br> involucradas en operaciones antiterroristas en el extranjero<br> y uso para la comisión de delitos."
+                "texto": "Potential risk of transfer to<br> organized crime in Mexico, to private companies<br> involved in counter-terrorist operations abroad<br> and use to commit crimes."
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -468,9 +468,9 @@ var countries = {
             "properties": {
                 "nombre": "Venezuela",
                 "color": 3,
-                "valor": "10,8",
+                "valor": "10.8",
                 "fecha": 2014,
-                "texto": "Riesgo sustancial en 2014 de uso del material<br> antidisturbios para cometer violaciones graves<br> del derecho internacional.<br> España suspendió las exportaciones de<br> <u>material antidisturbios</u> en abril de 2014."
+                "texto": "Substantial risk in 2014 of use of the anti-riot<br> equipment to commit serious violations<br> of international law.<br> Spain suspended exports of<br> <u>anti-riot equipment</u> in April 2014."
             },
             "geometry": {
                 "type": "MultiPolygon",
