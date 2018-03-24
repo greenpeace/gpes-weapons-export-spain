@@ -49,7 +49,7 @@
         info.update = function (props) {
             this._div.innerHTML = '<p class="h6">Exports of arms carried out<br> by Spain;to between 2014 and 2016</p>' +  (props ?
                 '<b>' + props.nombre + '</b><br />' +'Exports for a total estimated value' +'<br>' + 'of ' + '<b>'+ props.valor +'</b>' + ' million Euros<br><br>' + props.texto
-                : 'Pase el cursor por un pa&iacute;s');
+                : 'Click on a country');
         };
 
         info.addTo(map);
@@ -135,7 +135,7 @@
 
             var div = L.DomUtil.create('div', 'info legend');
                 div.innerHTML +=
-                    '<i style="background:#bd0026"></i> Exportaci&oacute;n preocupante (2015-2016)<br><i style="background:#fd8d3c"></i> Potencial preocupaci&oacute;n (2015-2016)<br><i style="background:#ffffb2"></i> Anterior preocupaci&oacute;n (2014)<br>';
+                    '<i style="background:#bd0026"></i> Export of concern (2015-2016)<br><i style="background:#fd8d3c"></i> Potential concern (2015-2016)<br><i style="background:#ffffb2"></i> Concern in the past (2014)<br>';
             return div;
         };
 
