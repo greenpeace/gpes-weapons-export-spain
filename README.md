@@ -7,3 +7,5 @@ Interactive map being translated from Spanish to English.
 
 In the English version you can see the map in [index.html](https://greenpeace.github.io/gpes-weapons-export-spain/index.html)
 and test the map as a responsive iframe in [test-iframe.html](https://greenpeace.github.io/gpes-weapons-export-spain/test-iframe.html).
+
+**Please use [the version hosted in storage.googleapis.com](https://storage.googleapis.com/gpes-static/weapons-export-spain/index.html)** as it can handle large ammounts of traffic.
